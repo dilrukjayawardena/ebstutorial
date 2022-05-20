@@ -1,0 +1,15 @@
+{
+    "TableName": "FilmInfoTable",
+    "KeySchema": [
+        { "AttributeName": "Director", "KeyType": "HASH" },
+        { "AttributeName": "FilmTitle", "KeyType": "RANGE" }
+    ],
+    "AttributeDefinitions": [
+        { "AttributeName": "Director", "AttributeType": "S" },
+        { "AttributeName": "FilmTitle", "AttributeType": "S" }
+    ],
+    "ProvisionedThroughput": {
+        "ReadCapacityUnits": 5,
+        "WriteCapacityUnits": 5
+    }
+}

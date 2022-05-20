@@ -1,0 +1,39 @@
+{
+    "FilmInfoTable": [{
+            "PutRequest": {
+                "Item": {
+                    "Director": {
+                        "S": "ADAM"
+                    },
+                    "FilmTitle": {
+                        "S": "Sleep less"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Director": {
+                        "S": "Stefan"
+                    },
+                    "FilmTitle": {
+                        "S": "Paint ball"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Director": {
+                        "S": "Lisa"
+                    },
+                    "FilmTitle": {
+                        "S": "Fedup"
+                    }
+                }
+            }
+        }
+    ]
+}

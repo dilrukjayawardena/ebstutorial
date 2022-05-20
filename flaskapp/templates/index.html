@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlaskDynamodb</title>
+</head>
+<body>
+   <h1>Welcome to FlaskSite</h1>
+   {% for film in films %}
+        <h2>{{ film['Director']['S'] }}</h2>
+        <h3>{{ film['FilmTitle']['S'] }}</h3>
+        <hr>
+    {% endfor %}
+</body>
+</html>
